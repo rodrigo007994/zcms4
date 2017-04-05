@@ -1,5 +1,4 @@
 <br/>
-<hr>
 		<div class="menu">
 			<ul>
 				<li><a href="./">Home</a></li>

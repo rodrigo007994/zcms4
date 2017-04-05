@@ -10,6 +10,11 @@
 	</head>
 	<body>
 <jsp:include page="logo.jsp" flush="true" />
+<div class="wrapper">
+<div class="left">
+<jsp:include page="navigation.jsp" flush="true" />
+</div>
+<div class="right">
 <div class="content">
 <div class="contact">
 <h3>Contact</h3>
@@ -35,5 +40,6 @@
 </form>
 </div>
 </div>
-<jsp:include page="navigation.jsp" flush="true" />
+</div>
+</div>
 <jsp:include page="footer.jsp" flush="true" />

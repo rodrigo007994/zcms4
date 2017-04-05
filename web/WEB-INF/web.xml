@@ -160,25 +160,25 @@
   </error-page>
   
   
-  <context-param>
+ <context-param>
     <param-name>url</param-name>
-    <param-value>localhost:5432/xxx_zendb</param-value>
+    <param-value>localhost:5432/rodrigov_zendb</param-value>
   </context-param>
   <context-param>
     <param-name>user</param-name>
-    <param-value>xxxx_zen</param-value>
+    <param-value>rodrigov_zen</param-value>
   </context-param>
   <context-param>
     <param-name>pass</param-name>
-    <param-value>xxxxxxx</param-value>
+    <param-value>1234</param-value>
   </context-param>
   <context-param>
     <param-name>email</param-name>
-    <param-value>contact@xxxxxxxx.com</param-value>
+    <param-value>zcontact@zencherry.com</param-value>
   </context-param>
   <context-param>
     <param-name>emailpass</param-name>
-    <param-value>xxxxxxxxxxxxxxxxxxxxxxxx</param-value>
+    <param-value>xxxxx</param-value>
   </context-param>
   <context-param>
     <param-name>smtp</param-name>
@@ -190,12 +190,13 @@
   </context-param>
   <context-param>
     <param-name>host</param-name>
-    <param-value>mail.xxxxxxx.com</param-value>
+    <param-value>mail.zencherry.com</param-value>
   </context-param>
   <context-param>
     <param-name>port</param-name>
     <param-value>2525</param-value>
   </context-param>
+  
   
   
   
