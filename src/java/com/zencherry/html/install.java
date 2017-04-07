@@ -26,6 +26,7 @@ public class install extends HttpServlet {
     	response.setContentType("text/html");
         response.setCharacterEncoding("utf-8");
         request.setAttribute("ztitle", "Install");
+        if(request.getParameter("pass").equals(getServletContext().getInitParameter("pass"))){
         Connection conn=null;
 	Statement stmt=null;
         String configUrl=getServletContext().getInitParameter("url");
@@ -55,6 +56,7 @@ public class install extends HttpServlet {
         request.setAttribute("zcontent", GetPage.getContent("install",configUrl, configUser, configPass));
         RequestDispatcher view = request.getRequestDispatcher("WEB-INF/jsp/base.jsp");
         view.forward(request, response);
+        }
     }
     @Override
     public void destroy(){
